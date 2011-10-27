@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SPONG</title>
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
+</head>
+<body>
+	<canvas id="board"></canvas>
+	<script src="js/spong.js"></script>
+	<script type="text/javascript">
+		var canvas = document.getElementById('board');
+		canvas.width  = document.body.offsetWidth;
+		canvas.height = document.body.offsetHeight;
+		Spong.init('board');
+	</script>
+</body>
+</html>
