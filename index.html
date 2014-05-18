@@ -3,15 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>SPONG</title>
-  <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/screen.css" />
 </head>
 <body>
-  <canvas id="board"></canvas>
+  <!-- 240 x 180 -->
+  <canvas id="board" width="480" height="360"></canvas>
   <script src="js/spong.js"></script>
   <script type="text/javascript">
     var canvas = document.getElementById('board');
-    canvas.width  = document.body.offsetWidth;
-    canvas.height = document.body.offsetHeight;
     Spong.init('board');
   </script>
 </body>
